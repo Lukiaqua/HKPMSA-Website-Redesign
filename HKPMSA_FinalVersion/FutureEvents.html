@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="lang">
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>香港創域會 | HKPMSA</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <style type="text/css">
+    
+    body{
+    margin: 0;
+    width:auto;
+}
+/*Style the header & navigation bar*/
+        header{
+            margin:0;
+            padding-top:0;
+            margin-left：
+            width:100%;
+            background-color: white;
+        }
+
+        .nav{
+             display: block;
+             padding-top:10px;
+             padding-bottom:20px;
+             margin-left: auto;
+             margin-right: auto;
+             height:100px;
+             width:600px;
+        }
+
+        nav {
+             margin:0;
+             padding-top:0;
+             width:100%;
+             background-color: #933F0B;
+             overflow: hidden;
+        }
+
+        nav ul.wrapper {
+            list-style-type: none;
+            margin: 1% 5% 1% 20% ;
+            float:left;
+            height: 40px;
+            background-color: #933F0B;
+        }
+
+        nav li {
+            display:block;
+            float: left;
+            padding-top:8px;
+            padding-right: 20px;
+            width: 80px;
+            text-align: center;
+        }
+
+        nav li a {
+            display:block;
+            color: white;
+            text-align: center;
+            font-size: 80%;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            color:#ADA9A0;
+        }
+        
+        ul.dropdown{
+            position:absolute;
+            display:none;
+            list-style-type: none;
+            height: 60px;
+            background-color: #933F0B;
+        }
+        li.drp:hover ul{
+            display:block;
+            padding:0;
+            padding-top:8px;
+            padding-bottom:8px;
+        }
+        li.drp:hover ul.dropdown li{
+            display:block;
+            clear:both;
+            padding:8px 5px 8px 5px;
+            float:left;
+            position:relative;
+        }
+        
+        ul.dropdown li:hover a{
+            color:#ADA9A0;
+        }
+        
+        .search-container {
+          float: left;
+          margin: 1.2%;
+          height:30px;
+        }
+
+        input[type=text] {
+          padding: 6px;
+          margin-top: 0;
+          font-size: 12px;
+          height:21px;
+          border: none;
+        }
+
+        .search-container button {
+          float: right;
+          padding: 6px 10px;
+          margin-top: 0;
+          background: #ddd;
+          font-size: 17px;
+          height: 33px;
+          width: 35px;
+          border: none;
+          cursor: pointer;
+        }
+
+        .search-container button:hover {
+          background: #ccc;
+        }
+
+
+        #doctorwithyou{
+height:850px;
+width:23%;
+border:5px solid gainsboro;
+padding:10px;
+float:left;
+margin-left:8%;
+            margin-top:40px;
+            margin-right:2%;
+            background-color: white;
+                }
+         #exercisewithyou{
+height:850px;
+width:23%;
+border:5px solid gainsboro;
+padding:10px;
+float:left;
+margin-left:2%;
+            margin-top:40px;
+            margin-right:2%;
+            background-color: white;
+        }
+        #dancingtutorial{
+height:850px;
+width:23%;
+border:5px solid gainsboro;
+padding:10px;
+float:right;
+margin-left:1%;
+            margin-top:40px;
+            margin-right:8%;
+            background-color: white; 
+            
+        }
+     #huangnitou{
+height:850px;
+width:23%;
+border:5px solid gainsboro;
+padding:10px;
+float:left;
+margin-left:8%;
+            margin-top:40px;
+            margin-right:2%;
+            background-color: white;
+                }
+        #moguishan{
+height:850px;
+width:23%;
+border:5px solid gainsboro;
+padding:10px;
+float:left;
+margin-left:2%;
+            margin-top:40px;
+            margin-right:2%;
+            background-color: white;
+        }
+        #micheng{
+height:850px;
+width:23%;
+border:5px solid gainsboro;
+padding:10px;
+float:right;
+margin-left:1%;
+            margin-top:40px;
+            margin-right:8%;
+            background-color: white; 
+            
+        }
+        div#dancingtutorial {
+            box-shadow:5px 5px 5px 5px gainsboro;
+            
+        }
+        div#exercisewithyou{
+            box-shadow:5px 5px 5px 5px gainsboro;
+        } 
+        div#doctorwithyou{
+            box-shadow:5px 5px 5px 5px gainsboro;
+        }
+                div#huangnitou{
+            box-shadow:5px 5px 5px 5px gainsboro;
+        }
+          div#moguishan{
+            box-shadow:5px 5px 5px 5px gainsboro;
+        }
+          div#micheng{
+            box-shadow:5px 5px 5px 5px gainsboro;
+              
+        }
+        h2{
+            color:darkblue;
+        }
+        #exercisewithyou h3{
+            color:cadetblue;
+        }
+        .cost{
+            color:darkblue;
+        }
+        h1{
+            color:cadetblue;
+        }
+       div#activity img{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 20px;
+         margin-bottom: 10px;
+         width:100%;
+        }
+        
+        article#application{
+            float:none;
+            clear:left;
+            padding:20px;
+            margin-left:150px;
+        }
+        
+        h4 {
+            font-size:30px;
+            color:brown;
+            padding-left:80px;
+                    }
+        artical p{
+            padding-left:80px;
+            padding-right:20px;
+        }
+        artical ul{
+            padding-left:80px;
+        
+        }
+        
+        div.footer{
+                position:absolute;
+                top:2800px;
+                width:100%;
+                display:block;
+                height:480px;
+                background-color:#933F0B;
+            }
+
+            Table.site-map {
+                margin:0;
+                vertical-align: top;
+                margin-left:15%;
+                margin-right:15%;
+                width:70%;
+                height: 300px;
+            }
+
+            Table.site-map tr{
+                vertical-align: top;
+                margin:5px;
+                height: 200px;
+            }
+            Table.site-map td{
+               width:20%;
+            }
+
+            Table.site-map h3{
+                border-top: solid 1px white;
+                padding-top:10px;
+                margin-top:0;
+                margin: 10px;
+                height:30px;
+                font-weight:500;
+                font-size:18px;
+            }
+
+
+            Table.site-map ul{
+                margin:0;
+                color: white;
+                list-style: none;
+                font-weight:100;
+                font-size:14px;
+                padding-left:10px;
+            }
+
+            Table.site-map a{
+                color: white;
+                padding:0;
+                margin:0;
+                list-style-type: none;
+                text-decoration:none;
+            }
+
+            div.contact{
+                margin-top:0;
+                margin-left:15%;
+                margin-right:15%;
+                width:70%;
+            }
+
+            div.contact h3{
+                color:white;
+                font-size:18px;
+                text-align:center;
+            }
+
+            div.contact img{
+                display:block;
+                float:left;
+                width:15%;
+                height:auto;
+            }
+
+            div.contact .copy-right{
+                display:block;
+                float:left;
+                width:27.33%;
+                font-size:14px;
+                color:#F3C5A9;
+                margin-top:50px;
+                text-align:center;
+            }
+
+            div.contact .content{
+                font-size:14px;
+                color:#F3C5A9;
+                text-align:center;
+            }
+
+            div.contact .contact-us{
+                display:block;
+                float:left;
+                width:27.33%;
+                text-align:center;
+            }
+            div.contact .address{
+                display:block;
+                float:right;
+                width:27.33%;
+                text-align:center;
+            }
+            div.address .content{
+                margin-left:15%;
+                margin-right: 15%;
+                width: 70%;
+            }
+        ul.dropdown{
+            position:absolute;
+            display:none;
+            list-style-type: none;
+            height: 80px;
+            background-color: #933F0B;
+        }
+        li.drp:hover ul{
+            display:block;
+            padding:0;
+            padding-top:8px;
+            padding-bottom:8px;
+        }
+        li.drp:hover ul.dropdown li{
+            display:block;
+            clear:both;
+            padding:8px 5px 8px 5px;
+            float:left;
+            position:relative;
+        }
+        
+        ul.dropdown li:hover a{
+            color:#ADA9A0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="wholepage">
+    <img class="nav" src="image/nav.png" alt="nav"/>
+    
+    <nav>
+        <ul class="wrapper">
+                    <li><a href="HomePage.html">主頁</a></li>
+                    <li><a href="AboutUs.html">關於我們</a></li>
+                    <li class="drp"><a href="FutureEvents.html">活動消息</a>
+                        <ul class="dropdown">
+                            <li><a target="review" href="Review.html">精彩回顧</a></li>
+                            <li><a target="district" href="DistrictCon.html">地區諮詢</a></li>
+                            <li><a target="events" href="CommunityResources.html">社區資源</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="RecoveryPackage.html">康復包</a></li>
+                    <li><a href="ContactUs.html">聯絡信息</a></li>
+                    <li><a href="Membership.html">加入我們</a></li>
+                </ul>
+        <div class="search-container">
+            <form action="/action_page.php">
+            <input type="text" placeholder="搜索站內" name="search">
+            <a href="ErrorPage.html"><button type="button" onclick="ErrorPage.html"><i class="fa fa-search"></i></button></a>
+            </form>
+        </div>
+    </nav>
+    
+    
+    
+  <div id="activity">
+      <!--this part is related to the information about future activities so that the audience can have an overview and choose the event they want to take part in-->
+      <div id="doctorwithyou">
+      <img src="image/doctor.jpg"  align="top" alt="doctor"/> 
+      <h2>醫生與你</h2>
+           <h3>3月份活動</h3>
+      <p>日期：2018年3月7日（星期三）</p>
+      <p>時間：下午2:30-4:30  </p>
+      <p>地點：黃大仙癌協服務中心 </p>
+    <p>內容：由專科醫生為肺癌患者給予意見 及咨詢患者互相分享及交流抗癌心得</p>
+          <p>講者：林冰醫生(本會執行顧問，養和醫 院呼吸系統科中心主任) 曾詠恆醫生(本會執行顧問，香港 大學李嘉誠醫學院內科學系內科 腫瘤科臨床助理教授) 余幸蓓姑娘(黃大仙癌協註冊社工)
+          </p>
+          <p>對象：肺癌患者及家屬（參加者請先登 記為創域會會員或癌協服務中心 服務使用者）</p>
+          <p >名額：25位</p>
+          <p class="cost">費用：<p>
+          <h1>全免</h1>
+      </div>
+      
+      <!--each activity has the similar contents, including the name, the date, the place, participants and the cost-->
+       <div id="exercisewithyou">
+    <img src="image/hiking.jpg"  align="top" alt="hiking"/>
+    <h2>運動與你</h2>
+           <h3>3月份活動</h3> 
+        <p>日期：2018年3月10日（星期六）</p>
+        <p>時間：上午11:00-下午1:00</p>
+        <p>地點：黃大仙癌協服務中心</p>
+        <p>內容：由康文署教練教授簡單運動，促 進身心健康以及患者互相分享及交流抗癌心得。</p>
+          <p>講者：區永河先生(康文署教練，中國香 港體適能總會-體適能講師及教練) 黃大仙癌協中心社工</p>
+    <p>對象：肝、膽、胰臟癌患者及家屬（參 加者請先登記為創域會會員或癌 協服務中心服務使用者）</p>
+    <p>名額：25位</p>
+    <p class="cost">費用：<p>
+          <h1>全免</h1>
+</div>
+    
+<div id="dancingtutorial">
+    <img src="image/dancing.jpg" align="top" alt="dancing"/>
+    <h2>社交舞班</h2>
+    <h3>3月份活動</h3>
+    <p>日期：2018年3月11日（星期日）</p>
+    <p>時間：下午4:00-6:00</p>
+    <p>地點：黃大仙癌協服務中心</p>
+    <p>內容：教授多種社交舞蹈，例如牛仔、Cha Cha等， 配合音樂舞動，抒發情緒，有助減低壓力，增強 體魄；並可與會友互相支持鼓勵，建立友誼。</p>
+     <p>導師：石潤華女士</p>
+           <p>對象：創域會會員，男女皆宜。</p>
+           <p>名額：30位</p>
+           <p>查詢：杜佩如姑娘(黃大仙癌協服務中心項目助理)</p>
+    <p class="cost">費用：<p>
+          <h1>$60</h1>
+    
+     </div>
+      
+    <div id="huangnitou">
+    <img src="image/5.jpg" align="top" alt="huangnitou" />
+    <h2>梅子女婆黃泥頭</h2>
+         <h3>5月份活動</h3>
+        <p>日期：2018年5月25日 (星期五)</p>
+<p>集合時間：上午9:15 （逾時不候）</p>
+    <p>集合地點：馬鐵大水坑站B出口</p>
+    <p>路線內容：富安花圖~梅子林路~女婆山~花心坑∼黃泥頭∼廣源商場（自費午茶）</p>
+        <p>   備註：緩步上落斜路石級（量力參加）<br/>需時：行程約4小時　　<br/>難度：★★★</p>
+              <p>對象：本會會員及其家屬（每位會員最多可以帶一位家人參加</p>
+           <p>名額：50位 領隊：楊秦漢，賀國賢，廖文偉，陳文勝</p>
+           
+    <p class="cost">費用：<p>
+          <h1>$10</h1>
+         </div>
+          
+      <div id="moguishan">
+    <img src="image/maxresdefault.jpg" align="top" alt="moguishan"/>
+    <h2>漫步魔鬼山</h2>
+         <h3>6月份活動</h3>
+          <p>日期：2018年6月15 日 (星期五)</p>
+<p>集合時間：上午9:00（逾時不候）</p>
+    <p>集合地點：鑽石山站C2出口地面右廣場搭巴士至井欄樹站落車</p>
+    <p>路線內容：井欄樹∼澳頭村∼馬遊塘∼五桂山∼魔鬼山∼鯉魚門散隊 (適當地點大休)</p>
+        <p>   需時：行程約4小時　　　　<br/>難度：★★★<br/>
+備註：路程上落斜路，上落石級，治療期間會友不宜，量力參加　</p>
+              <p>對象：本會會員及其家屬（每位會員最多可以帶一位家人參加）　</p>
+           <p>名額：50位 領隊：陳文勝，賀國賢，楊秦漢，廖文偉</p>
+           
+    <p class="cost">費用：<p>
+          <h1>$10</h1>
+          
+          
+         </div>
+       <div id="micheng">
+    <img src="image/IMG_8072.JPG" align="top" alt="micheng" width="600"/>
+    <h2>鐵索迷城</h2>
+         <h3>7月份活動</h3>
+          <p>日期：2018年7月16 日 (星期一)</p>
+<p>集合時間：上午9:15（逾時不候）</p>
+    <p>集合地點：大圍東鐵站D出口滙豐銀行/快餐店側</p>
+    <p>路線內容：大圍香粉寮村∼城門下水塘∼鐵索迷城∼燒烤場∼安蔭商場（自費午茶）</p>
+        <p>   需時：行程約4小時　　　　<br/>難度：★★  <br/>
+備註：有少許石級（量力參加）　</p>
+              <p>對象：本會會員及其家屬（每位會員最多可以帶一位家人參加）　</p>
+           <p>名額：50位 領隊：楊秦漢，賀國賢，廖文偉，陳文勝</p>
+           
+    <p class="cost">費用：<p>
+          <h1>$10</h1>
+         </div>
+      </div>
+    
+    <article id="application">
+<!--this part is related to the sign-up procedure including the policies and the methods. As most of the audience are the old, the best way to sign-up is through phone call.-->
+        
+    <h4> 報名方法  </h4>    
+  <ul >      
+      <li>凡會員維繫活動(即興趣班及康樂活動)，</li>
+<li>只接受會員親自報名。</li>
+      <li>不能代其他會員報名。</li>
+      <li>凡會員關懷活動(即定期支援小組)，歡迎親自或為有需要會員報名。</li>
+      <li>請於服務時間內報名及繳費，需清楚說明活動名稱、會員號、姓名及日間聯絡電話。</li>
+      <li>請撥打我們的聯絡電話：852-3656-0799報名。</li>
+        </ul>
+        <!--this part is about how to make the payments-->
+        
+        <h4>繳費辦法</h4>
+<ul >
+    <li>親臨癌協中心，於本會服務時間內向當席義工繳費;或</li>
+
+    <li>以劃線支票，抬頭『香港創域會有限公司』，支票背面寫上活動名稱、會員編號及姓名交回或寄回給本會。</li>
+        </ul>
+        
+        <h4>活動繳費</h4>
+
+<p>凡會員維繫活動(即興趣班及康樂活動)，各位會員報名後只
+
+    留位，並請在報名後7個工作天內繳費作實，不再另行通知。</p>
+        
+        
+  </article>
+    
+      
+      
+      
+<div class="footer">
+        <table class="site-map">
+            <tr>
+                <td><a href="AboutUs.html" ><h3 class="site-title">關於本會</h3></a>
+                    <ul>
+                        <li>公司背景</li>
+                        <li>顧問團及委員會</li>
+                        <li>支助機構</li>
+                        <li><a href="image/badweather.PNG">惡劣天氣活動安排</a></li>
+                    </ul></td>
+                <td><a href="FutureEvents.html" ><h3 class="site-title">活動消息</h3></a>
+                    <ul>
+                        <li><a href="Review.html">精彩回顧</a></li>
+                        <li><a href="FutureEvents.html">即將舉辦</a></li>
+                        <li><a href="DistrictCon.html">地區资讯</a></li>
+                        <li><a href="CommunityResources.html">社區資源</a></li>
+                    </ul></td>
+                <td><a href="RecoveryPackage.html" ><h3 class="site-title">康復包</h3></a>
+                    <ul>
+                        <li>申請方式</li>
+                        <li>包裹內容</li>
+                    </ul></td>
+                <td><a href="ContactUs.html" ><h3 class="site-title">聯絡我們</h3></a>
+                    <ul>
+                        <li>Email</li>
+                        <li>電話</li>
+                        <li>傳真</li>
+                        <li>地圖</li>
+                        <li>服務時間</li>
+                    </ul></td>
+                <td><a href="Membership.html" ><h3 class="site-title">加入我們</h3></a>
+                    <ul>
+                        <li>會員類別</li>
+                        <li>會員表格</li>
+                    </ul></td>
+            </tr>
+        </table>
+        
+        
+        <div class="contact">
+            <img src="image/Logo.png" alt="logo"/>
+            <p class="copy-right">© Copyright 2018 by HKPMSA</p>
+            
+            <div class="contact-us">
+                <h3>Contact Us</h3>
+                <p class="content">Tel: 852-3656-0799 <br> Email: hkpmsa@gmail.com</p>
+            </div>
+            
+            <div class="address">
+                <h3>Adress</h3>
+                <p class="content">香港九龍黃大仙下邨龍昌樓C翼2-8號地下</p>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</body>
+        
+    
+    
+
+</html>
